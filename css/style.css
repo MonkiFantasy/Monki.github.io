@@ -2,18 +2,31 @@ body section{
     ;
 }
 h1{
-    background: red;
-    color: wheat;
+    background: wheat;
+    color: skyblue;
     border-radius: 10px;
     text-align: center;
-}
-body footer{
-
-    text-align: center;
+    font-family: 楷体, serif;
 }
 section p{
     text-align: center;
 }
-audio[id=background]{
+footer{
+    text-align: center;
+}
+body footer div{
     background: wheat;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+body a{
+    background: aqua;
+    color: yellow;
+    border-radius: 5px;
+    text-decoration: none;
+}
+body a:hover{
+    background: darkgoldenrod;
 }
