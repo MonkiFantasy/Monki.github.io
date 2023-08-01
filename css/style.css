@@ -1,6 +1,19 @@
+body section{
+    ;
+}
 h1{
     background: red;
     color: wheat;
     border-radius: 10px;
     text-align: center;
+}
+body footer{
+
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+audio[id=background]{
+    background: wheat;
 }
