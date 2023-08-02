@@ -2,8 +2,9 @@ html{
     margin: 0;
 }
 body{
-    background-color: #FEE140;
-    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    background-color: #0093E9;
+    background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 19%, #db9d9d 39%, #ada144 60%, #d44c4c 80%, #d48a8a 100%);
+
 
 }
 
@@ -35,6 +36,11 @@ h1{
     display: inline-block;
     font-size: 25px;
 }
+ul li a{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
 section p{
     text-align: center;
 }
@@ -48,7 +54,8 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
-    background: orange;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
     text-align: center;
     border-radius: 10px;
     margin: auto;
@@ -67,7 +74,7 @@ body a{
 }
 a[href*=top]{
     display: block;
-    background: wheat;
+    background: coral;
 }
 body a:hover{
     background: darkgoldenrod;
