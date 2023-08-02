@@ -1,12 +1,39 @@
-body section{
-    ;
+html{
+    margin: 0;
 }
+body{
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
+}
+
+body section p a:link{
+    color: black;
+}
+
+.navigation img{
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
 h1{
-    background: wheat;
-    color: skyblue;
+    display: inline-block;
+    color: blue;
     border-radius: 10px;
     text-align: center;
     font-family: 楷体, serif;
+    vertical-align: middle;
+}
+.navigation ul{
+    float: right;
+    padding-right: 50px;
+    display: inline-block;
+}
+.navigation li{
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 25px;
 }
 section p{
     text-align: center;
@@ -14,18 +41,33 @@ section p{
 footer{
     text-align: center;
 }
-body footer div{
-    background: wheat;
-    width: 400px;
+.music{
+    width: 500px;
+    /*浮动效果：设置position为fixed,再指定上下左右边距*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: orange;
     text-align: center;
     border-radius: 10px;
     margin: auto;
+}
+.toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
 }
 body a{
     background: aqua;
     color: yellow;
     border-radius: 5px;
     text-decoration: none;
+}
+a[href*=top]{
+    display: block;
+    background: wheat;
 }
 body a:hover{
     background: darkgoldenrod;

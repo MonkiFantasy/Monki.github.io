@@ -6,13 +6,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <h1 id="top">欢迎来到梦奇的网站</h1>
+<header id="top">
+    <div class="navigation">
+        <img src="res/image/monki.jpg" width="50" height="50" alt="icon">
+        <h1>欢迎来到梦奇的网站</h1>
+        <ul>
+            <li><a href="http://monkifantasy.me/blog">个人博客</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+    </div>
 </header>
 <section>
-    <p>
-        <a href="https://monkifantasy.me/blog">点击跳转到梦奇的博客</a>
-    </p>
+
     <p>
         <img src="res/image/starSky.jpg" alt="starSky">
     </p>
@@ -33,10 +38,17 @@
 
 
 
-        <a href="#top">点击回到顶部</a>
-    <div>
-        <p>林俊杰-愿与愁</p>
+
+    <div class="music">
+        <p style="margin: 0;color: white">林俊杰-愿与愁</p>
         <audio id="background" src="res/audio/林俊杰-愿与愁.mp3"  autoplay controls></audio>
+
+    </div>
+    <div class="toTop">
+        <a href="#top" >
+            <p style="margin: 0;color: white">回到顶部</p>
+            <img src="res/image/up.png" width="60px" height="60px" alt="clickToTop">
+        </a>
     </div>
 </footer>
 
